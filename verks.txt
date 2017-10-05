@@ -1,1 +1,19 @@
-"" 
+Forsíða
+	Animation
+	Styles
+	Footer
+	Haus
+	Linkur á kaupa
+Kaupa
+	Styles
+	Footer
+	Haus
+Um
+	Styles
+	Footer
+	Haus
+
+		Haus
+			Linkur á forsíðu
+			Linkur á kaupa
+			Linkur á um
