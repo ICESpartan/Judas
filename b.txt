@@ -1,0 +1,2 @@
+hallo eg heiti marteinn > b.txt
+
