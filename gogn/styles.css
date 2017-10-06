@@ -1,0 +1,32 @@
+.profile {
+  overflow: hidden;
+  border-radius: 50%; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  margin-left: -10px; }
+
+.col {
+  padding-right: 10px;
+  padding-left: 10px; }
+  .col-12 {
+    width: 100%; }
+  .col-6 {
+    width: 50%; }
+  .col-4 {
+    width: 33.33333%; }
+
+.image {
+  width: 50%; }
+
+.checkbox {
+  max-width: 20px;
+  width: 100%;
+  height: 100%; }
+
+.comment {
+  display: inline-flex;
+  margin-bottom: 20px; }

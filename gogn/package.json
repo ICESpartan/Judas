@@ -4,7 +4,7 @@
   "description": "Verkefni 6 í vefforritun 2017",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css page.html",
+    "browser-sync": "browser-sync start --server --files index.html styles.css um.html kaupa.html",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"

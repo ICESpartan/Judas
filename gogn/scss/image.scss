@@ -1,0 +1,9 @@
+.image {
+  @include columns(6);
+}
+
+.checkbox{
+  max-width: $gutter;
+  width: 100%;
+  height: 100%;
+}
