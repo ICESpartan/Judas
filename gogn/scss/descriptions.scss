@@ -1,11 +1,16 @@
 .desc {
 
-  margin-bottom: $gutter;
+  // margin-bottom: $gutter;
   display: inline-flex;
 
 
   &-image {
     width: $gutter;
+    height: $gutter;
+  }
+
+  &-img {
+    height: 100%;
   }
 
   &-content {
@@ -13,7 +18,7 @@
   }
 
   &-header{
-
+    font-weight: bold;
   }
 
   &-text {
