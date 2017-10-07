@@ -32,6 +32,10 @@ main {
   margin: 0 auto;
   overflow-x: hidden; }
 
+section {
+  margin-bottom: 200px;
+  margin-top: 200px; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -52,7 +56,8 @@ main {
     width: 33.33333%; }
 
 .desc {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: inline-flex; }
   .desc-image {
     width: 20px; }
   .desc-text {
@@ -74,3 +79,27 @@ main {
 .comment-about {
   font-size: 60%;
   color: #777; }
+
+.header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed; }
+
+.button {
+  display: inline-block;
+  width: 100%;
+  max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
+  overflow: hidden;
+  font-family: Lato, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 4px; }

@@ -44,6 +44,13 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
+section {
+  margin-bottom: $gutter * 10;
+  margin-top: $gutter * 10;
+}
+
 @import "scss/grid.scss";
 @import "scss/descriptions.scss";
 @import "scss/comment.scss";
+@import "scss/header.scss";
+@import "scss/button.scss";
