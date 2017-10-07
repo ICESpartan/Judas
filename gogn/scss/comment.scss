@@ -1,35 +1,29 @@
-.comment {
+.comment{
 
-  display: inline-flex;
-  margin-bottom: $gutter;
-
-  &-header {
-
+  &-image {
   }
 
-  &-p {
-
+  &-img {
+    border-radius: 50%;
+    overflow: hidden;
   }
 
+  &-content {
+    text-align: center;
+  }
 
+  &-text {
+    font-style: italic;
+  }
 
+  &-author {
+    font-size: 75%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  &-about {
+    font-size: 60%;
+    color: #777;
+  }
 
 
 
