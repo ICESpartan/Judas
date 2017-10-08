@@ -62,6 +62,10 @@ section {
     height: 20px; }
   .desc-img {
     height: 100%; }
+  .desc-content {
+    display: block; }
+  .desc-header {
+    font-weight: bold; }
   .desc-text {
     font-size: 0.75rem; }
 
@@ -105,3 +109,7 @@ section {
   background-color: #666;
   border: 1px solid #666;
   border-radius: 4px; }
+
+.frontpage {
+  margin-top: 600px;
+  background: transparent url(photos/bg.jpg) no-repeat fixed 50% 50%; }
