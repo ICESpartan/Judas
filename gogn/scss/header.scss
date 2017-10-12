@@ -1,6 +1,16 @@
 .header {
-  @include columns(12);
+  display: inline;
+  background: rgba(100, 100, 100, 0.5);
 
-  background: rgba(0, 0, 0, 0.75);
-  position: fixed;
+
+  &__left {
+    float: left;
+  }
+
+  &__right {
+    float: right;
+  }
+
+
+
 }

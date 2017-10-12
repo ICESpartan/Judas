@@ -87,9 +87,12 @@ section {
   color: #777; }
 
 .header {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.75);
-  position: fixed; }
+  display: inline;
+  background: rgba(100, 100, 100, 0.5); }
+  .header__left {
+    float: left; }
+  .header__right {
+    float: right; }
 
 .button {
   display: inline-block;
