@@ -1,16 +1,25 @@
 .header {
-  display: inline;
-  background: rgba(100, 100, 100, 0.5);
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: fixed;
+
+  &__item {
 
 
-  &__left {
-    float: left;
+    &__left {
+      float: left;
+    }
+    &__right {
+      float: right;
+    }
   }
 
-  &__right {
-    float: right;
+  &__link {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: $gutter / 2 $gutter / 2;
   }
-
-
-
 }

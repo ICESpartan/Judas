@@ -87,12 +87,20 @@ section {
   color: #777; }
 
 .header {
-  display: inline;
-  background: rgba(100, 100, 100, 0.5); }
-  .header__left {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: fixed; }
+  .header__item__left {
     float: left; }
-  .header__right {
+  .header__item__right {
     float: right; }
+  .header__link {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px; }
 
 .button {
   display: inline-block;
